@@ -6,6 +6,7 @@ var express          = require("express"),
     services         = require("./lib/services"),
     stream           = require("./lib/stream"),
     liveData         = require("./lib/live-data").create(),
+    audioStreams     = require("./lib/audio-streams").create(),
     basicAuth        = connect.basicAuth(process.env.BASIC_AUTH, process.env.BASIC_AUTH),
     port             = (process.env.PORT || 5000),
     server           = module.exports = express();

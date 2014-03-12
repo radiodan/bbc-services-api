@@ -16,13 +16,13 @@
         * ~~Track~~
     * ~~Normalise station ids using `services.json`~~
     * ~~Normalise event types to `eventName`~~
-* Audio Stream Service
-    * Call stream url for each station
-    * Parse playlist file, return timestamped endpoints
-    * Normalise station ids using `services.json`
-    * setInterval to reparse at a later time
-    * EventEmitter
-        * New stream URL
+* ~~Audio Stream Service~~
+    * ~~Call stream url for each station~~
+    * ~~Parse playlist file, return timestamped endpoints~~
+    * ~~Normalise station ids using `services.json`~~
+    * ~~setInterval to reparse at a later time~~
+    * ~~EventEmitter~~
+        * ~~New stream URL~~
 * Nitro Service
     * Call crafted JSON url for each station
     * Return object per programme
