@@ -4,12 +4,12 @@
     * ~~CORS~~
     * ~~Basic Auth~~
 * Look into memcached
-* `services.json`
-    * Station Name
-    * ID for API
-    * ID for MQTT
-    * ID for audio stream
-    * ID for now/next information
+* ~~`services.json`~~
+    * ~~Station Name~~
+    * ~~ID for API~~
+    * ~~ID for MQTT~~
+    * ~~ID for audio stream~~
+    * ~~ID for now/next information~~
 * MQTT Service
     * EventEmitter
         * Livetext
@@ -37,8 +37,8 @@
     * Normalise station ids using `services.json`
     * EventEmitter
         * New programmes
-* SVG Logos
-    * Copy from old project
+* ~~SVG Logos~~
+    * ~~Copy from old project~~
 * `/stream`
     * ~~Event Stream~~
     * Emit on
