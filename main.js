@@ -24,6 +24,11 @@ server.configure(function() {
   server.use(connect.static("public"));
 });
 
+server.get("/", function(req, res) {
+  res.send("<h1>BBC Radio Services API</h1>");
+  res.end();
+});
+
 server.get("/services.json", services);
 server.get("/stream", stream);
 
