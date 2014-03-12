@@ -1,0 +1,69 @@
+{ "services": [
+  {
+    "title": "BBC 1Xtra",
+    "id": "1xtra",
+    "stream_id": "r1x",
+    "logo_id": "bbc_1xtra"
+  },
+  {
+    "title": "BBC Asian Network",
+    "id": "asiannetwork",
+    "stream_id": "ran",
+    "logo_id": "bbc_asian_network"
+  },
+  {
+    "title": "BBC Radio 2",
+    "id": "radio2",
+    "stream_id": "r2",
+    "logo_id": "bbc_radio_two"
+  },
+  {
+    "title": "BBC Radio 3",
+    "id": "radio3",
+    "stream_id": "r3",
+    "logo_id": "bbc_radio_three"
+  },
+  {
+    "title": "BBC Radio 4",
+    "id": "radio4/fm",
+    "stream_id": "r4",
+    "logo_id": "bbc_radio_fourfm"
+  },
+  {
+    "title": "BBC Radio 4 Extra",
+    "id": "radio4extra",
+    "stream_id": "r4x",
+    "logo_id": "bbc_radio_four_extra"
+  },
+  {
+    "title": "BBC Radio 4 LW",
+    "id": "radio4/lw",
+    "stream_id": "r4lw",
+    "logo_id": "bbc_radio_fourlw"
+  },
+  {
+    "title": "BBC Radio 5 Live",
+    "id": "5live",
+    "stream_id": "r5l",
+    "logo_id": "bbc_radio_five_live"
+  },
+  {
+   "title": "BBC Radio 5 Live Sports Extra",
+   "id": "5livesportsextra",
+   "stream_id": "r5lsp",
+   "logo_id": "bbc_radio_five_live_sports_extra"
+  },
+  {
+    "title": "BBC 6 Music",
+    "id": "6music",
+    "stream_id": "r6",
+    "logo_id": "bbc_6music"
+  },
+  {
+    "title": "BBC World Service",
+    "id": "worldservice",
+    "stream_id": false,
+    "stream_url": "",
+    "logo_id": "bbc_world_service"
+  }
+]}
