@@ -5,6 +5,7 @@ var express          = require("express"),
     allowCrossDomain = require("./lib/allow-cross-domain"),
     services         = require("./lib/services"),
     stream           = require("./lib/stream"),
+    basicAuth        = express.basicAuth(process.env.BASIC_AUTH, process.env.BASIC_AUTH),
     port             = (process.env.PORT || 5000),
     server           = module.exports = express();
 
@@ -16,6 +17,7 @@ server.configure(function() {
   server.use(connect.urlencoded());
   server.use(connect.json());
   server.use(allowCrossDomain);
+  server.use(basicAuth);
   server.use(server.router);
   server.use(express["static"](__dirname + "/../public"));
 });
