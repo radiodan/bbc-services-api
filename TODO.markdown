@@ -3,7 +3,6 @@
 * ~~Express JS Elements~~
     * ~~CORS~~
     * ~~Basic Auth~~
-* Look into memcached
 * ~~`services.json`~~
     * ~~Station Name~~
     * ~~ID for API~~
@@ -45,9 +44,9 @@
         * track / livetext event
         * new stream URL
         * now/new information
-* `/services.json`
-    * Title
-    * ID
-    * Streams
-    * NowAndNext
-    * Logos
+* ~~`/services.json`
+    * ~~Title~~
+    * ~~ID~~
+    * ~~Streams~~
+    * ~~NowAndNext~~
+    * ~~Logos~~
