@@ -5,6 +5,7 @@ var express          = require("express"),
     allowCrossDomain = require("./lib/allow-cross-domain"),
     services         = require("./lib/services"),
     stream           = require("./lib/stream"),
+    liveData         = require("./lib/live-data").create(),
     basicAuth        = connect.basicAuth(process.env.BASIC_AUTH, process.env.BASIC_AUTH),
     port             = (process.env.PORT || 5000),
     server           = module.exports = express();

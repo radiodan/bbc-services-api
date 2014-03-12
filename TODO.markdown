@@ -10,12 +10,12 @@
     * ~~ID for MQTT~~
     * ~~ID for audio stream~~
     * ~~ID for now/next information~~
-* MQTT Service
-    * EventEmitter
-        * Livetext
-        * Track
-    * Normalise station ids using `services.json`
-    * Normalise event types to `event-name`
+* ~~MQTT Service~
+    * ~~EventEmitter~~
+        * ~~Livetext~~
+        * ~~Track~~
+    * ~~Normalise station ids using `services.json`~~
+    * ~~Normalise event types to `eventName`~~
 * Audio Stream Service
     * Call stream url for each station
     * Parse playlist file, return timestamped endpoints
