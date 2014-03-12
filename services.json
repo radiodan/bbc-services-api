@@ -3,67 +3,78 @@
     "title": "BBC 1Xtra",
     "id": "1xtra",
     "streamId": "r1x",
-    "logoId": "bbc_1xtra"
+    "logoId": "bbc_1xtra",
+    "nitroId": "bbc_1xtra"
   },
   {
     "title": "BBC Asian Network",
     "id": "asiannetwork",
     "streamId": "ran",
-    "logoId": "bbc_asian_network"
+    "logoId": "bbc_asian_network",
+    "nitroId": "bbc_asian_network"
   },
   {
     "title": "BBC Radio 2",
     "id": "radio2",
     "streamId": "r2",
-    "logoId": "bbc_radio_two"
+    "logoId": "bbc_radio_two",
+    "nitroId": "bbc_radio_two"
   },
   {
     "title": "BBC Radio 3",
     "id": "radio3",
     "streamId": "r3",
-    "logoId": "bbc_radio_three"
+    "logoId": "bbc_radio_three",
+    "nitroId": "bbc_radio_three"
   },
   {
     "title": "BBC Radio 4",
     "id": "radio4/fm",
     "streamId": "r4",
-    "logoId": "bbc_radio_fourfm"
+    "logoId": "bbc_radio_fourfm",
+    "nitroId": "bbc_radio_fourfm"
   },
   {
     "title": "BBC Radio 4 Extra",
     "id": "radio4extra",
     "streamId": "r4x",
-    "logoId": "bbc_radio_four_extra"
+    "logoId": "bbc_radio_four_extra",
+    "nitroId": "bbc_radio_four_extra"
   },
   {
     "title": "BBC Radio 4 LW",
     "id": "radio4/lw",
     "streamId": "r4lw",
-    "logoId": "bbc_radio_fourlw"
+    "logoId": "bbc_radio_fourlw",
+    "nitroId": "bbc_radio_fourlw"
   },
   {
     "title": "BBC Radio 5 Live",
     "id": "5live",
     "streamId": "r5l",
-    "logoId": "bbc_radio_five_live"
+    "logoId": "bbc_radio_five_live",
+    "nitroId": "bbc_radio_five_live"
   },
   {
    "title": "BBC Radio 5 Live Sports Extra",
    "id": "5livesportsextra",
    "streamId": "r5lsp",
-   "logoId": "bbc_radio_five_live_sports_extra"
+   "logoId": "bbc_radio_five_live_sports_extra",
+   "nitroId": "bbc_radio_five_live_sports_extra"
   },
   {
     "title": "BBC 6 Music",
     "id": "6music",
     "streamId": "r6",
-    "logoId": "bbc_6music"
+    "logoId": "bbc_6music",
+    "nitroId": "bbc_6music"
   },
   {
     "title": "BBC World Service",
     "id": "worldservice",
     "streamId": false,
     "stream_url": "",
-    "logoId": "bbc_world_service"
+    "logoId": "bbc_world_service",
+    "nitroId": "bbc_world_service"
   }
 ]}

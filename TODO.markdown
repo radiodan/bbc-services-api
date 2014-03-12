@@ -23,20 +23,20 @@
     * ~~setInterval to reparse at a later time~~
     * ~~EventEmitter~~
         * ~~New stream URL~~
-* Nitro Service
-    * Call crafted JSON url for each station
-    * Return object per programme
-        * Episode
-        * Series
-        * Brand
-        * PID
-        * Start
-        * End
-        * Duration
-    * setInterval to check for new programmes from remaining duration
-    * Normalise station ids using `services.json`
-    * EventEmitter
-        * New programmes
+* ~~Nitro Service~~
+    * ~~Call crafted JSON url for each station~~
+    * ~~Return object per programme~~
+        * ~~Episode~~
+        * ~~Series~~
+        * ~~Brand~~
+        * ~~PID~~
+        * ~~Start~~
+        * ~~End~~
+        * ~~Duration~~
+    * ~~setInterval to check for new programmes from remaining duration~~
+    * ~~Normalise station ids using `services.json`~~
+    * ~~EventEmitter~~
+        * ~~New programmes~~
 * ~~SVG Logos~~
     * ~~Copy from old project~~
 * `/stream`
