@@ -19,7 +19,7 @@ server.configure(function() {
   server.use(allowCrossDomain);
   server.use(basicAuth);
   server.use(server.router);
-  server.use(express["static"](__dirname + "/../public"));
+  server.use(express["static"]("public"));
 });
 
 server.get("/services.json", services);
