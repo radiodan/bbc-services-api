@@ -72,7 +72,7 @@
   {
     "title": "BBC World Service",
     "id": "worldservice",
-    "streamId": false,
+    "streamId": "worldservice",
     "logoId": "bbc_world_service",
     "nitroId": "bbc_world_service"
   }
