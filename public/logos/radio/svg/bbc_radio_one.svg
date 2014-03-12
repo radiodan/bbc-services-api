@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="115px" height="115px" viewBox="0 0 115 115" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <title>Slice 1</title>
+    <description>Created with Sketch (http://www.bohemiancoding.com/sketch)</description>
+    <defs></defs>
+    <g id="Page 1" fill="#D8D8D8" fill-rule="evenodd">
+        <g id="Layer_1" fill="#000000">
+            <path d="M57.1220016,107.237 C84.7837362,107.237 107.208,84.8127355 107.208,57.151001 C107.208,29.4892664 84.7837362,7.06500244 57.1220016,7.06500244 C29.4602671,7.06500244 7.03600311,29.4892664 7.03600311,57.151001 C7.03600311,84.8127355 29.4602671,107.237 57.1220016,107.237 Z M57.1220016,107.237" id="Oval" fill="#FFFFFF"></path>
+            <path d="M57.123,0 C25.576,0 0,25.589 0,57.151 C0,88.717 25.574,114.301 57.123,114.301 C88.674,114.301 114.244,88.718 114.244,57.151 C114.244,25.588 88.674,0 57.123,0 L57.123,0 Z M67.634,95.467 L47.516,95.467 L47.516,40.787 L38.914,40.787 L50.789,18.753 L67.634,18.753 L67.634,95.467 L67.634,95.467 Z M67.634,95.467" id="Shape" fill="#1A171B"></path>
+        </g>
+    </g>
+</svg>
