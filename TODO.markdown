@@ -1,8 +1,8 @@
 #Todo
 
-* Express JS Elements
-    * CORS
-    * Basic Auth
+* ~~Express JS Elements~~
+    * ~~CORS~~
+    * ~~Basic Auth~~
 * Look into memcached
 * `services.json`
     * Station Name
@@ -40,7 +40,7 @@
 * SVG Logos
     * Copy from old project
 * `/stream`
-    * Event Stream
+    * ~~Event Stream~~
     * Emit on
         * track / livetext event
         * new stream URL
