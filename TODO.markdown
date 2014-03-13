@@ -3,13 +3,13 @@
 * ~~Express JS Elements~~
     * ~~CORS~~
     * ~~Basic Auth~~
-* ~~`services.json`~~
+* ~~services.json~~
     * ~~Station Name~~
     * ~~ID for API~~
     * ~~ID for MQTT~~
     * ~~ID for audio stream~~
     * ~~ID for now/next information~~
-* ~~MQTT Service~
+* ~~MQTT Service~~
     * ~~EventEmitter~~
         * ~~Livetext~~
         * ~~Track~~
@@ -38,13 +38,13 @@
         * ~~New programmes~~
 * ~~SVG Logos~~
     * ~~Copy from old project~~
-* `/stream`
+* ~~/stream~~
     * ~~Event Stream~~
-    * Emit on
-        * track / livetext event
-        * new stream URL
-        * now/new information
-* ~~`/services.json`
+    * ~~Emit on~~
+        * ~~track / livetext event~~
+        * ~~new stream URL~~
+        * ~~now/new information~~
+* ~~/services.json~~
     * ~~Title~~
     * ~~ID~~
     * ~~Streams~~
