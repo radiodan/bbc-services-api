@@ -5,6 +5,7 @@ var express          = require("express"),
     allowCrossDomain = require("./lib/allow-cross-domain"),
     dataStore        = require("./lib/data-store").create(),
     services         = require("./lib/services")(dataStore),
+    stations         = require("./lib/stations"),
     stream           = require("./lib/stream")(dataStore),
     basicAuth        = connect.basicAuth(process.env.BASIC_AUTH, process.env.BASIC_AUTH),
     port             = (process.env.PORT || 5000),
@@ -30,6 +31,7 @@ server.get("/", function(req, res) {
 });
 
 server.get("/services.json", services);
+server.get("/stations.json", stations);
 server.get("/stream", stream);
 
 http.createServer(server).listen(port);
