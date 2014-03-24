@@ -1,19 +1,25 @@
 { "services": [
   {
-    "title": "BBC 1Xtra",
-    "id": "1xtra",
-    "liveDataId": "1xtra",
-    "streamId": "r1x",
-    "logoId": "bbc_1xtra",
-    "nitroId": "bbc_1xtra"
-  },
-  {
     "title": "BBC Radio 1",
     "id": "radio1",
     "liveDataId": "radio1",
     "streamId": "r1",
     "logoId": "bbc_radio_one",
-    "nitroId": "bbc_radio_one"
+    "nitroId": "bbc_radio_one",
+    "colour": {
+      "hex": "#1e1e1e"
+    }
+  },
+  {
+    "title": "BBC 1Xtra",
+    "id": "1xtra",
+    "liveDataId": "1xtra",
+    "streamId": "r1x",
+    "logoId": "bbc_1xtra",
+    "nitroId": "bbc_1xtra",
+    "colour": {
+      "hex": "#1e1e1e"
+    }
   },
   {
     "title": "BBC Radio 2",
@@ -21,7 +27,10 @@
     "liveDataId": "radio2",
     "streamId": "r2",
     "logoId": "bbc_radio_two",
-    "nitroId": "bbc_radio_two"
+    "nitroId": "bbc_radio_two",
+    "colour": {
+      "hex": "#ec7a08"
+    }
   },
   {
     "title": "BBC Radio 3",
@@ -29,23 +38,32 @@
     "liveDataId": "radio3",
     "streamId": "r3",
     "logoId": "bbc_radio_three",
-    "nitroId": "bbc_radio_three"
+    "nitroId": "bbc_radio_three",
+    "colour": {
+      "hex": "#cd202c"
+    }
   },
   {
     "title": "BBC Radio 4",
-    "id": "radio4/fm",
+    "id": "radio4",
     "liveDataId": "radio4",
     "streamId": "r4",
     "logoId": "bbc_radio_fourfm",
-    "nitroId": "bbc_radio_fourfm"
+    "nitroId": "bbc_radio_fourfm",
+    "colour": {
+      "hex": "#002c5f"
+    }
   },
   {
     "title": "BBC Radio 4 LW",
-    "id": "radio4/lw",
+    "id": "radio4-lw",
     "liveDataId": "radio4/lw",
     "streamId": "r4lw",
     "logoId": "bbc_radio_fourlw",
-    "nitroId": "bbc_radio_fourlw"
+    "nitroId": "bbc_radio_fourlw",
+    "colour": {
+      "hex": "#002c5f"
+    }
   },
   {
     "title": "BBC Radio 4 Extra",
@@ -53,7 +71,10 @@
     "liveDataId": "radio4extra",
     "streamId": "r4x",
     "logoId": "bbc_radio_four_extra",
-    "nitroId": "bbc_radio_four_extra"
+    "nitroId": "bbc_radio_four_extra",
+    "colour": {
+      "hex": "#672c85"
+    }
   },
   {
     "title": "BBC Radio 5 Live",
@@ -61,7 +82,10 @@
     "liveDataId": "5live",
     "streamId": "r5l",
     "logoId": "bbc_radio_five_live",
-    "nitroId": "bbc_radio_five_live"
+    "nitroId": "bbc_radio_five_live",
+    "colour": {
+      "hex": "#00afd8"
+    }
   },
   {
    "title": "BBC Radio 5 Live Sports Extra",
@@ -69,7 +93,10 @@
    "liveDataId": "5livesportsextra",
    "streamId": "r5lsp",
    "logoId": "bbc_radio_five_live_sports_extra",
-   "nitroId": "bbc_radio_five_live_sports_extra"
+   "nitroId": "bbc_radio_five_live_sports_extra",
+    "colour": {
+      "hex": "#5b8f22"
+    }
   },
   {
     "title": "BBC 6 Music",
@@ -77,15 +104,10 @@
     "liveDataId": "6music",
     "streamId": "r6",
     "logoId": "bbc_6music",
-    "nitroId": "bbc_6music"
-  },
-  {
-    "title": "BBC World Service",
-    "id": "worldservice",
-    "liveDataId": "worldserviceradio",
-    "streamId": "worldservice",
-    "logoId": "bbc_world_service",
-    "nitroId": "bbc_world_service"
+    "nitroId": "bbc_6music",
+    "colour": {
+      "hex": "#447f80"
+    }
   },
   {
     "title": "BBC Asian Network",
@@ -93,6 +115,20 @@
     "liveDataId": "asiannetwork",
     "streamId": "ran",
     "logoId": "bbc_asian_network",
-    "nitroId": "bbc_asian_network"
+    "nitroId": "bbc_asian_network",
+    "colour": {
+      "hex": "#d10074"
+    }
+  },
+  {
+    "title": "BBC World Service",
+    "id": "worldservice",
+    "liveDataId": "worldserviceradio",
+    "streamId": "worldservice",
+    "logoId": "bbc_world_service",
+    "nitroId": "bbc_world_service",
+    "colour": {
+      "hex": "#991A1F"
+    }
   }
 ]}
