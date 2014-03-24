@@ -7,8 +7,7 @@ var express          = require("express"),
     services         = require("./lib/services")(dataStore),
     stations         = require("./lib/stations"),
     stream           = require("./lib/stream")(dataStore),
-    authName         = process.env.BASIC_AUTH || "",
-    basicAuth        = connect.basicAuth(authName, authName),
+    authName         = process.env.BASIC_AUTH,
     port             = (process.env.PORT || 5000),
     server           = module.exports = express();
 
@@ -21,9 +20,12 @@ server.configure(function() {
   server.use(connect.urlencoded());
   server.use(connect.json());
   server.use(allowCrossDomain);
-  server.use(basicAuth);
   server.use(server.router);
   server.use(connect.static("public"));
+
+  if(authName) {
+    server.use(connect.basicAuth(authName, authName));
+  }
 });
 
 server.get("/", function(req, res) {
