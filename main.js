@@ -7,7 +7,8 @@ var express          = require("express"),
     services         = require("./lib/services")(dataStore),
     stations         = require("./lib/stations"),
     stream           = require("./lib/stream")(dataStore),
-    basicAuth        = connect.basicAuth(process.env.BASIC_AUTH, process.env.BASIC_AUTH),
+    authName         = process.env.BASIC_AUTH || "",
+    basicAuth        = connect.basicAuth(authName, authName),
     port             = (process.env.PORT || 5000),
     server           = module.exports = express();
 
