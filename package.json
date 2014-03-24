@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon main.js"
+    "dev": "nodemon main.js",
+    "start": "node main.js"
   },
   "repository": {
     "type": "git",
