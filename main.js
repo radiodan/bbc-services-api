@@ -6,6 +6,7 @@ var express          = require("express"),
     dataStore        = require("./lib/data-store").create(),
     services         = require("./lib/services")(dataStore),
     stations         = require("./lib/stations"),
+    logos            = require("./lib/logos"),
     stream           = require("./lib/stream")(dataStore),
     authName         = process.env.BASIC_AUTH,
     port             = (process.env.PORT || 5000),
@@ -35,6 +36,7 @@ server.get("/", function(req, res) {
 
 server.get("/services.json", services);
 server.get("/stations.json", stations);
+server.get("/logos.json", logos);
 server.get("/stream", stream);
 
 http.createServer(server).listen(port);
