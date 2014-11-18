@@ -18,11 +18,12 @@
   "author": "Dan Nutall <dan.nuttall@bbc.co.uk>",
   "license": "Apache-2",
   "dependencies": {
+    "connect": "^2.14.1",
+    "deepequal": "0.0.1",
     "express": "^3.4.8",
     "q": "^1.0.0",
-    "connect": "^2.14.1",
-    "winston": "^0.7.2",
-    "deepequal": "0.0.1"
+    "q-io": "^1.11.6",
+    "winston": "^0.7.2"
   },
   "devDependencies": {
     "nodemon": "^1.0.15"
