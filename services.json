@@ -9,7 +9,8 @@
     "dabId": "0.c221.ce15.ce1.dab",
     "colour": {
       "hex": "#1e1e1e"
-    }
+    },
+    "playlist": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_one/format/pls.pls"
   },
   {
     "title": "BBC 1Xtra",
@@ -21,7 +22,8 @@
     "dabId": "0.c22a.ce15.ce1.dab",
     "colour": {
       "hex": "#1e1e1e"
-    }
+    },
+    "playlist": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_1xtra/format/pls.pls"
   },
   {
     "title": "BBC Radio 2",
@@ -33,7 +35,8 @@
     "dabId": "0.c222.ce15.ce1.dab",
     "colour": {
       "hex": "#ec7a08"
-    }
+    },
+    "playlist": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_two/format/pls.pls"
   },
   {
     "title": "BBC Radio 3",
@@ -45,7 +48,8 @@
     "dabId": "0.c223.ce15.ce1.dab",
     "colour": {
       "hex": "#cd202c"
-    }
+    },
+    "playlist": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_three/format/pls.pls"
   },
   {
     "title": "BBC Radio 4",
@@ -57,7 +61,8 @@
     "dabId": "0.c224.ce15.ce1.dab",
     "colour": {
       "hex": "#002c5f"
-    }
+    },
+    "playlist": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_fourfm/format/pls.pls"
   },
   {
     "title": "BBC Radio 4 LW",
@@ -68,7 +73,8 @@
     "nitroId": "bbc_radio_fourlw",
     "colour": {
       "hex": "#002c5f"
-    }
+    },
+    "playlist": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_fourlw/format/pls.pls"
   },
   {
     "title": "BBC Radio 4 Extra",
@@ -80,7 +86,8 @@
     "dabId": "0.c22c.ce15.ce1.dab",
     "colour": {
       "hex": "#672c85"
-    }
+    },
+    "playlist": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_four_extra/format/pls.pls"
   },
   {
     "title": "BBC Radio 5 Live",
@@ -92,7 +99,8 @@
     "dabId": "0.c225.ce15.ce1.dab",
     "colour": {
       "hex": "#00afd8"
-    }
+    },
+    "playlist": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_five_live/format/pls.pls"
   },
   {
    "title": "BBC Radio 5 Live Sports Extra",
@@ -104,7 +112,8 @@
     "dabId": "0.c228.ce15.ce1.dab",
     "colour": {
       "hex": "#5b8f22"
-    }
+    },
+    "playlist": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_radio_five_live_sports_extra/format/pls.pls"
   },
   {
     "title": "BBC 6 Music",
@@ -116,7 +125,8 @@
     "dabId": "0.c22b.ce15.ce1.dab",
     "colour": {
       "hex": "#447f80"
-    }
+    },
+    "playlist": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_6music/format/pls.pls"
   },
   {
     "title": "BBC Asian Network",
@@ -128,7 +138,8 @@
     "dabId": "0.c236.ce15.ce1.dab",
     "colour": {
       "hex": "#d10074"
-    }
+    },
+    "playlist": "http://open.live.bbc.co.uk/mediaselector/5/select/mediaset/http-icy-aac-lc-a/vpid/bbc_asian_network/format/pls.pls"
   },
   {
     "title": "BBC World Service",
@@ -140,6 +151,7 @@
     "dabId": "0.c238.ce15.ce1.dab",
     "colour": {
       "hex": "#991A1F"
-    }
+    },
+    "playlist": "http://wsdownload.bbc.co.uk/worldservice/meta/live/shoutcast/mp3/eieuk.pls"
   }
 ]}
