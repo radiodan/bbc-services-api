@@ -8,11 +8,15 @@ var express          = require("express"),
     stations         = require("./lib/stations"),
     logos            = require("./lib/logos"),
     stream           = require("./lib/stream")(dataStore),
-    authName         = process.env.BASIC_AUTH,
+    authName         = process.env.BASIC_AUTH || false,
     port             = (process.env.PORT || 5000),
     server           = module.exports = express();
 
 server.configure(function() {
+  if(authName != false) {
+    server.use(connect.basicAuth(authName, authName));
+  }
+
   server.use(express.errorHandler({
     dumpExceptions: true,
     showStack: true
@@ -23,10 +27,6 @@ server.configure(function() {
   server.use(allowCrossDomain);
   server.use(server.router);
   server.use(connect.static("public"));
-
-  if(authName) {
-    server.use(connect.basicAuth(authName, authName));
-  }
 });
 
 server.get("/", function(req, res) {
